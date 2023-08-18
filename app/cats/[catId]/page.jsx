@@ -84,17 +84,3 @@ const CatPage = async ({ params: { catId } }) => {
     )
 }
 export default CatPage
-
-// adaptability	5
-// affection_level	5
-// child_friendly	3
-// dog_friendly	4
-// energy_level	5
-// health_issues	2
-// intelligence	5
-// social_needs	5
-// stranger_friendly	5
-{
-    /* <p>origin: {cats.origin}</p>
-<p>{cats.life_span}</p> */
-}
