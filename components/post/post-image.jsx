@@ -4,7 +4,7 @@ import PaddingContainer from '../layout/padding-container'
 const PostImage = () => {
     return (
         <div className=''>
-            <div className='relative w-full h-40 md:h-[300px] 2xl:h-[600px] '>
+            <div className='relative w-full h-40 md:h-[350px] 2xl:h-[600px] '>
                 <Image
                     src='/img2.jpg'
                     fill

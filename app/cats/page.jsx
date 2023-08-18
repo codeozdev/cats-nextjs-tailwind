@@ -10,7 +10,7 @@ const CatsPage = async () => {
 
     return (
         <PaddingContainer>
-            <div className='grid grid-cols-2 md:grid-cols-5 text-sm my-24 md:mt-36 2xl:mt-72  gap-4 h-full md:gap-5'>
+            <div className='grid grid-cols-2 md:grid-cols-5 text-sm my-24 md:mt-40 2xl:mt-72  gap-4 h-full md:gap-5'>
                 {images.map((image, index) => (
                     <PostCat key={image.id} image={image} cat={cats[index]} />
                 ))}

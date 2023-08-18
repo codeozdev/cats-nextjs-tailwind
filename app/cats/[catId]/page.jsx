@@ -9,7 +9,7 @@ const CatPage = async ({ params: { catId } }) => {
 
     return (
         <PaddingContainer>
-            <div className='text-sm mt-24 xl:mt-48 2xl:mt-60 h-full w-full '>
+            <div className='text-sm mt-24 md:mt-48 2xl:mt-60 h-full w-full '>
                 <div>
                     <h2>{cats.name}</h2>
                     <p>{cats.description}</p>
